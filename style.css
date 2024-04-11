@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.ota {
+    justify-content: space-between;
+    display: flex;
+    text-align: center;
+}
+
+.bola {
+    background-color: burlywood;
+    text-align: center;
+    padding: 10px 0 10px;
+}
+
+.bola-1, a {
+    font-size: 18px;
+    color: burlywood;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.bola5 img {
+    width: 100%;
+}
+
+.bola-5 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.bola-6 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.bola6, button {
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px 20px 10px;
+}
+
+.otacha {
+    color: white;
+    background-color: burlywood;
+    padding: 20px 0 20px;
+}
+
+.bola-9, h1 {
+    color: burlywood;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.bola3 {
+    margin-top: 10px;
+}
+
+.bola-8 {
+    margin-top: 50px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.bola8, h2 ,h6 {
+    margin-top: 10px;
+    color: burlywood;
+}
+
+.bola56 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.bolacha-2 img {
+    margin-top: 50px;
+    width: 100%;
+}
+
+.bolacha_3 {
+    color: white;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 30px;
+    background-color: burlywood;
+    font-size: 30px;
+    padding: 10px 0 10px;
+}
+
+.otabacha {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    background-color: burlywood;
+    padding: 50px 0 50px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.bola97 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+footer {
+    background-color: #A9AE8D;
+    color:  white;
+}
+
+.bolamiy {
+    margin-left: 300px;
+    padding: 10px 0 10px;
+}
+
+.bola90 {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+/* --------------------------------------------Media-------------------------------------- */
+
+@media (max-width: 700px) {
+    .ota {
+        display: none;
+    }
+}
+
+@media (max-width: 1030px) {
+    .bola-8 {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 860px) {
+    .bolacha_3 {
+        display: none;
+    }
+
+    .otabacha {
+        flex-wrap: wrap;
+    }
+}
